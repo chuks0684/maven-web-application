@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>sams.apps</finalName>
+		<finalName>LOVE</finalName>
 		
 		<plugins>
 			<plugin>
