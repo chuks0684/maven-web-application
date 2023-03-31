@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>LOVE</finalName>
+		<finalName>Class.app</finalName>
 		
 		<plugins>
 			<plugin>
