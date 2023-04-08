@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>Class.app</finalName>
+		<finalName>Mikes.app</finalName>
 		
 		<plugins>
 			<plugin>
