@@ -36,4 +36,4 @@ jobs:
         run: docker run -v ${{ inputs.path }}:/src chuks0684/githubaction:1
       - name: Call API
         run: |
-          curl -X http://localhost:8080/test
+          curl -X http://localhost:8080/Mikes.app
