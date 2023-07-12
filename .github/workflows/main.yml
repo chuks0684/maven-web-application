@@ -31,7 +31,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: chuks0684/githubaction:5   
+        tags: chuks0684/githubaction:1   
     - name: Run docker image
         docker run -v ${{ inputs.path }}:/src service:${{steps.vars.outputs.tag}}
    - name: Call API
