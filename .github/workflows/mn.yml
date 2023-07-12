@@ -33,7 +33,7 @@ jobs:
           push: true
           tags: chuks0684/githubaction:1
       - name: Run docker image
-        run: docker run --name tesla -d -p 80:80 chuks0684/githubaction:1
+        run: docker run --name tesla -d -p 80:8080 chuks0684/githubaction:1
       - name: Call API
         run: |
           curl -X GET http://localhost:80
