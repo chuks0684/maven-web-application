@@ -33,7 +33,13 @@ jobs:
         push: true
         tags: chuks0684/githubaction:1   
     - name: Run docker image
-        docker run --name tesla -d -p 80:8080
-   - name: Call API
-      run: |
-         curl -X GET http://localhost:8080/tes
+    - name: Check out the repo
+            uses: actions/checkout@v2
+          - name: Run the build process with Docker
+            uses: addnab/docker-run-action@v3
+            with:
+                image: username/container:latest
+                options: -v ${{ github.workspace }}:/data
+                run: |
+                    echo "Hello World"
+ 
