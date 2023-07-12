@@ -31,4 +31,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: chuks0684/githubaction:latest
+        tags: chuks0684/githubaction:5
